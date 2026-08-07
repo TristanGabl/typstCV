@@ -3,164 +3,149 @@ skills:
         - English
         - German
     technologies:
-        - Java
-        - Python
         - C
         - C++
-        - JavaScript
-        - PHP
-        - Angular
+        - ROS2
+        - Python
         - PyTorch
-        - Docker
-        - React
-        - NextJS
-        - Svelte(Kit)
-        - FastAPI
-        - REST
-        - HTML
-        - CSS
-        - SQL
-        - Mongo
-        - Postgres
+        - Cuda
+        - Julia
+        - MATLAB
+        - JavaScript
         - Git
-        - Scrum and Arduino/ESP8266/32 based Hardware development
+
+# projects:
+#     - name: AMZ Racing — Formula Student driverless Pipeline & AMZbev project
+#       description: Bird's eye view sensor fusion dataset, model and model training for a Formula Student racecar.
+#       link: 'private organisation'
+
+#     - name: 'Large-Scale AI Engineering project — CuSSS: Cuda implementation of SSS variants'
+#       description: Native cuda implementations of various SSS activation functions for potential use in Apertus project. Awarded a letter of distinction.
+#       link: 'https://github.com/ucinereo/CuSSS'
+
+#     - name: 3D Vision group project — Action Recognition Using 3D Hand-Object Contact Map
+#       description: ML semester project to predict actions performed from data of a short sequence of hand & object vertices.
+#       link: 'https://github.com/TristanGabl/3d_vision'
+
+#     - name: Robot Learning group project — Cloth folding using a diffusion policy on a SO-101
+#       description: Robot learning course project about a robot arm cloth folding task, solved via imitation learning and a diffusion policy.
+#       link: 'https://github.com/TristanGabl/lerobot_robot_learning'
+
+#     - name: Bachelor's Thesis — Software pipeline for 3D Scene Graphs
+#       description: Building 3D scene graphs from 3D Scanner App and MLPs.
+#       link: 'https://github.com/TristanGabl/3dscenegraph_demo'
+
+# Short project names listed under the GitHub link in the sidebar.
+project_links:
+    - name: "AMZ bird's eye view fusion (private)"
+      link: ''
+
+    - name: 'CuSSS: Cuda SSS variants'
+      link: 'https://github.com/ucinereo/CuSSS'
+
+    - name: 'Action recognition from contact maps'
+      link: 'https://github.com/TristanGabl/3d_vision'
+
+    - name: 'Cloth folding with a diffusion policy'
+      link: 'https://github.com/TristanGabl/lerobot_robot_learning'
+
+    - name: '3D scene graphs (Bachelor thesis)'
+      link: 'https://github.com/TristanGabl/3dscenegraph_demo'
+
+
 
 jobs:
-    # - position: Research Assistant
-    #   company:
-    #       name: Computational and Applied Mathematics Laboratory (CAMLab) ETH Zürich
-    #       link: https://math.ethz.ch/sam
-    #   description: Research at CAMLab with Prof. Siddhartha Mishra on foundation models for PDEs
-    #   from: 'Spring 2025'
-    #   to: ''
-    #   tags:
-    #       - Coding
-    #       - Documentation
-    #       - Finite Element Method
-    #       - FEM
-    #       - LehrFEM
-    #       - C++
-
-    - position: Coding Assistant for LehrFEM++ Finite Element Library
+    - position: Research Assistant
       company:
-          name: Seminar for Applied Mathematics ETH Zürich
-          link: https://math.ethz.ch/sam
-      description: Coding Assistant for c++ Finite Element Library "LehrFEM++" used for the course Numerical Methods for Partial Differential Equations taught by Prof. Dr. Ralf Hiptmair.
-      from: 'Fall 2024'
+          name: Computer Vision and Geometry Group ETH Zürich
+          link: https://cvg.ethz.ch/
+      description: Collecting and pre-processing camera and LiDAR data for a Computer Vision research project concerning human collaboration in a kitchen and cooking environment.
+      from: '2026'
       to: '_'
-      tags:
-          - Coding
-          - Documentation
-          - Finite Element Method
-          - FEM
-          - LehrFEM
-          - C++
+      location: CH
 
-    - position: Freelance Software Engineer
+    - position: Module lead for Perception
       company:
-          name: Armstrong Systems
-          link: https://armstrongsystems.io/
-      description: Founded Armstrong Systems, Software consulting for clients in Zürich. Full stack development of various projects including a web-based data management tool, visualization dashboards and large scale data ingestion pipelines.
-      from: '2022'
-      to: ''
-      tags:
-          - Data Analysis
-          - Data Visualization
+          name: AMZ Racing
+          link: https://www.amzracing.ch/
+      description: Leading and overseeing the next generation of perception engineers, requiring management of multiple workpackages.
+      from: '2025'
+      to: '2026'
+      location: CH
 
-    - position: Teaching Assistant for Software Engineering Fundamentals
+    - position: Core Member for Sensor Fusion, Perception
       company:
-          name: Department of Computer Science ETH Zürich
-          link: https://inf.ethz.ch/
-      description: Teaching Assistant for the course Software Engineering Fundamentals
-      from: 'Spring Semester 2024'
-      to: '_'
-      tags:
-          - Teaching
-          - Python
-          - Software Engineering
+          name: AMZ Racing
+          link: https://www.amzracing.ch/
+      description: An intense and experience-rich year as a core member of the driverless department at one of the most successful Formula Student teams.
+      from: '2024'
+      to: '2025'
+      location: CH
 
-    - position: Head teaching assistant for Computer Science II
+    - position: Teaching Assistant
       company:
-          name: Department of Computer Science ETH Zürich
-          link: https://inf.ethz.ch/
-      description: I was responsible for the organization of the teaching assistants and the exercise classes. In addition I worked closely with the lectures preparing exercise material and made sure the course runs smoothly.
-      from: 'August 2023'
-      to: 'February 2024'
-      tags:
-          - Teaching
-          - Management
-          - C++
-          - Algorithms
-          - Data structures
+          name: ETH Zürich
+          link: https://ethz.ch/
+      description: I have an everlasting passion for being a teaching assistant for Computer Science 1 & 2.
+      from: '2023'
+      to: '2026'
+      location: CH
 
-    - position: Teaching assistant for Computer Science II
+    - position: Paramedic at Red Cross
       company:
-          name: Department of Computer Science ETH Zürich
-          link: https://inf.ethz.ch/
-      description: I taught one of the exercise classes and reviewed student submissions. The course provides the foundations for the design and analysis of algorithms. Classical problems ranging from sorting up to problems on graphs are used to discuss common data structures, algorithms and algorithm design paradigms.
-      from: 'August 2022'
-      to: 'February 2023'
-      tags:
-          - Teaching
-          - C++
-          - Algorithms
-          - Data structures
+          name: Civil-Service
+          link: https://www.roteskreuz.at/
+      description: Gained experience in taking responsibility in critical situations.
+      from: '2020'
+      to: '2021'
+      location: AT
 
-    - position: Teaching assistant and Full Stack Developer
+    - position: Student
       company:
-          name: Inter-university research group Industrial Software, Vienna University of Technology
-          link: https://www.inso.tuwien.ac.at
-      description: Together with a small team we developed security challenges for teams of students to compete in a Capture the Flag (CTF) competition. It was held as part of the course "Security for Systems Engineering" at TU Wien. In addition I supervised students during the competition and helped administering exams later in the semester.
-      from: 'Spring 2021'
-      to: '_'
-      tags:
-          - Teaching
-          - C
-          - Python
-          - Security
-          - Data structures
-    - position: Paramedic (civil-service)
-      company:
-          name: Samariterbund
-          link: https://www.samariterbund.net
-      description: Worked as a paramedic in Vienna as part of my civil service.
-      from: '2018'
-      to: '2019'
-      tags:
-          -
-    - position: Summer internship
-      company:
-          name: Tecton Consult
-          link: https://engineering.tecton-consult.at/?lang=en
-      description: Summer internship at Tecton Consult, a civil engineering company in Vienna.
-      from: 'Summer 2018'
-      to: '_'
-      tags:
-          -
-    - position: Various summer jobs
-      company:
-          name: Various
+          name: BMW Shadowing Week about Design Process
           link: ''
-      description: Various summer jobs in Vienna including working as a Postman, food delivery driver and math/CS tutor for high school students.
-      from: 'Summers 2017-2021'
+      description: First contact with the world of proper engineering design in Silicon Valley as part of a school-initiated shadowing week.
+      from: '2018'
       to: '_'
-      tags:
-          -
+      location: US-CA
 
 education:
     - university:
           name: 'ETH Zürich'
-          link: 'https://ethz.ch/'
-      degree: 'B.Sc.'
-      major: Computational Science and Engineering, Robotics track
-      track: Robotics
-      from: '2021'
-      to: ''
+          link: 'https://rw.ethz.ch/'
+      degree: 'Master of Science ETH'
+      major: Computational Science and Engineering
+      description: ''
+      from: '2025'
+      to: '…'
+      location: CH
+
     - university:
-          name: Vienna University of Technology
-          link: 'https://www.tuwien.at'
-      degree: 'B.Sc.'
-      major: Computer Science, Software & Information Engineering track
-      track: Software & Information Engineering
-      from: '2019'
-      to: '2021 (switch to ETH)'
+          name: 'ETH Zürich'
+          link: 'https://rw.ethz.ch/'
+      degree: 'Bachelor of Science ETH'
+      major: Computational Science and Engineering
+      description: Comprehensive interdisciplinary program combining applied mathematics, computer science, and engineering. Focused on scientific computing, data analysis, and numerical modeling.
+      from: '2021'
+      to: '2025'
+      location: CH
+
+    - university:
+          name: International School Kufstein
+          link: 'https://www.isk-tirol.at/'
+      degree: 'Reifeprüfung mit ausgezeichnetem Erfolg & International Baccalaureate'
+      major: ''
+      description: Graduated with dual diplomas from bilingual school in Tirol, Austria.
+      from: '2016'
+      to: '2020'
+      location: AT
+
+    - university:
+          name: German International School of Silicon Valley
+          link: 'https://www.gissv.org/gissv-home-english'
+      degree: ''
+      major: ''
+      description: Completed a year abroad in 10th grade.
+      from: '2017'
+      to: '2018'
+      location: US-CA
