@@ -2,7 +2,7 @@
 
 Typst version of my CV using a yml file with a custom template. 
 
-[Current CV PDF](https://benedict-armstrong.github.io/typstCV/cv.pdf)
+[Current CV PDF](https://tristangabl.github.io/typstCV/cv.pdf)
 
 ## Deploy
 
