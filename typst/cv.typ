@@ -35,7 +35,7 @@
     #par(
       [
         Honesty in teamwork is most important to me.
-        I am passionate about robot learning, hardware involved projects, autonomous systems and numerical methods.
+        I am passionate about *robot learning*, *hardware involved projects*, *autonomous systems* and *numerical methods*.
         Physical exercise and a work-life balance feel essential for great
         productivity. I dedicate my free time to being in nature and practising Tricking/Gymnastics.
       ],
