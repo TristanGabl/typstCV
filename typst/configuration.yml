@@ -5,14 +5,15 @@ skills:
     technologies:
         - C
         - C++
-        - ROS2
         - Python
         - PyTorch
+        - ROS2
         - Cuda
         - Julia
         - MATLAB
         - JavaScript
         - Git
+        - Final Cut Pro
 
 # projects:
 #     - name: AMZ Racing — Formula Student driverless Pipeline & AMZbev project
