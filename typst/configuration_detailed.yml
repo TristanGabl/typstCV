@@ -1,0 +1,182 @@
+# Data source for cv_detailed.typ — detailed, full-width variant of the CV.
+# Content is taken from configuration.yml / cv.pdf only.
+
+personal:
+    name: 'Tristan Gabl'
+    email: 'trgabl@student.ethz.ch'
+    phone: '+41 76 575 64 57'
+    github: 'github.com/TristanGabl'
+    github_link: 'https://github.com/TristanGabl'
+    headshot: 'images/headshot.jpeg'
+
+# Short note shown once at the top of the Education section, explaining the degree subject.
+education_intro: >-
+    Computational Science and Engineering at ETH Zürich is a comprehensive interdisciplinary
+    program combining applied mathematics, computer science, and engineering, that can be
+    focused on robotics, machine learning, and numerical methods.
+
+education:
+    - institution: 'ETH Zürich'
+      link: 'https://rw.ethz.ch/'
+      location: 'Zurich, Switzerland'
+      degree: 'Master of Science ETH in Computational Science and Engineering'
+      gpa: '5.54/6 (current)'
+      from: '2025'
+      to: 'present'
+      coursework:
+          - 'Robot Dynamics'
+          - 'Robot Learning'
+          - 'Probabilistic Artificial Intelligence'
+          - 'Advanced Numerical Methods'
+          - 'Recursive Estimation'
+          - 'Models of Motion'
+      points: []
+
+    - institution: 'ETH Zürich'
+      link: 'https://rw.ethz.ch/'
+      location: 'Zurich, Switzerland'
+      degree: 'Bachelor of Science ETH in Computational Science and Engineering'
+      gpa: '5.01/6'
+      coursework:
+          - 'Computer Vision'
+          - '3D Vision'
+      from: '2021'
+      to: '2025'
+      points: []
+
+    - institution: 'International School Kufstein'
+      link: 'https://www.isk-tirol.at/'
+      location: 'Tirol, Austria'
+      degree: 'Reifeprüfung mit ausgezeichnetem Erfolg & International Baccalaureate'
+      gpa: ''
+      coursework: []
+      from: '2016'
+      to: '2020'
+      points:
+          - 'Graduated with dual diplomas from a bilingual school in Tirol, Austria.'
+
+    - institution: 'German International School of Silicon Valley'
+      link: 'https://www.gissv.org/gissv-home-english'
+      location: 'California, USA'
+      degree: 'Year abroad, 10th grade'
+      gpa: ''
+      coursework: []
+      from: '2017'
+      to: '2018'
+      points: []
+
+# Short note shown once at the top of the Work Experience section.
+experience_intro: >-
+    Additionally two years of hands-on engineering experience at one of the leading Formula Student
+    teams — see Student Organizations below.
+
+experience:
+    - position: 'Research Assistant'
+      organization: 'Computer Vision and Geometry Group, ETH Zürich'
+      link: 'https://cvg.ethz.ch/'
+      location: 'Zurich, Switzerland'
+      from: '2026'
+      to: ''
+      points:
+          - 'Collecting and pre-processing camera and LiDAR data for a computer vision research project.'
+
+    - position: 'Teaching Assistant'
+      organization: 'ETH Zürich'
+      link: 'https://ethz.ch/'
+      location: 'Zurich, Switzerland'
+      from: '2023'
+      to: 'present'
+      points:
+          - 'Teaching assistant for Computer Science 1 & 2 across several semesters.'
+
+    - position: 'Paramedic at Red Cross'
+      organization: 'Civil Service'
+      link: 'https://www.roteskreuz.at/'
+      location: 'Austria'
+      from: '2020'
+      to: '2021'
+      points:
+          - 'Gained experience in taking responsibility in critical situations.'
+
+organizations:
+    - position: 'Module Lead for Perception'
+      organization: 'AMZ Racing, Driverless'
+      link: 'https://www.amzracing.ch/'
+      location: 'Zurich, Switzerland'
+      from: '2025'
+      to: '2026'
+      points:
+          - 'Lead the next generation of team members responsible for all perception related subsystems.'
+          - 'Planned and led weekly meetings for timeline management and to ensure knowledge transfer.'
+          - 'Ensured coherence of development goals across the perception, estimation, and controls modules.'
+
+    - position: 'Core Member for Sensor Fusion, Perception'
+      organization: 'AMZ Racing, Driverless'
+      link: 'https://www.amzracing.ch/'
+      location: 'Zurich, Switzerland'
+      from: '2024'
+      to: '2025'
+      points:
+          - "Developed bird's eye view sensor fusion model, combining LiDAR, camera, and odometry data for landmark detection at high-speed driving (20 m/s) within latency budget."
+          - 'Improved and maintained performance of baseline detection methods (LiDAR only, camera only) across incoming software and hardware changes of other modules and the car.'
+          - 'Focused on good coding practices to simplify debugging, runtime improvements, and knowledge transfer.'
+
+projects:
+    - name: 'Cloth folding using a diffusion policy on a SO-101'
+      course: 'Robot Learning'
+      link: 'https://github.com/TristanGabl/lerobot_robot_learning'
+      link_note: ''
+      note: ''
+      points:
+          - 'Established a data collection workflow for imitation learning, used to train and verify diffusion policies.'
+          - 'Refactored the codebase for use of an unsupported vision backbone in combination with a lighter flow matching model, for effective deployment without a dedicated GPU.'
+          - 'Generalised model across towel colours using data augmentation leveraging SAM 2.'
+
+    - name: 'CuSSS: Cuda implementation of SSS variants'
+      course: 'Large-Scale AI Engineering'
+      link: 'https://github.com/ucinereo/CuSSS'
+      link_note: ''
+      note: 'Awarded a letter of distinction'
+      points:
+          - 'Implemented native Cuda kernels for variants of SSS activation functions, focused on runtime.'
+          - 'Validated kernels against PyTorch autograd equivalents and verified speedups using benchmarks and Nsight Systems profiling.'
+
+    - name: 'Action recognition using 3D hand-object contact maps'
+      course: '3D Vision'
+      link: 'https://github.com/TristanGabl/3d_vision'
+      link_note: ''
+      note: ''
+      points:
+          - 'Predicted performed actions from short sequences of hand and object vertices on the egocentric H2O dataset.'
+          - 'Compared two-stage and end-to-end training of MLP and transformer models, using thresholded contact and distance maps as an intermediate representation.'
+
+    - name: "Software pipeline for 3D scene graphs"
+      course: "Bachelor's thesis"
+      link: 'https://github.com/TristanGabl/3dscenegraph_demo'
+      link_note: ''
+      note: ''
+      points:
+          - 'Developed code for combining point clouds, 2D panoptic segmentation, and MLP output to produce 3D scene graphs.'
+
+interests:
+    - 'Robot learning'
+    - 'Autonomous systems'
+    - 'Hardware involved projects'
+
+skills:
+    languages:
+        - English
+        - German
+    technologies:
+        - C
+        - C++
+        - Python
+        - PyTorch
+        - ROS2
+        - Cuda
+        - Julia
+        - MATLAB
+        - JavaScript
+        - Git
+        - Linux
+        - Final Cut Pro

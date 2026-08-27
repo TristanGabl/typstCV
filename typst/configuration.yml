@@ -13,6 +13,7 @@ skills:
         - MATLAB
         - JavaScript
         - Git
+        - Linux
         - Final Cut Pro
 
 # projects:
@@ -100,15 +101,6 @@ jobs:
       from: '2020'
       to: '2021'
       location: AT
-
-    - position: Student
-      company:
-          name: BMW Shadowing Week about Design Process
-          link: ''
-      description: First contact with the world of proper engineering design in Silicon Valley as part of a school-initiated shadowing week.
-      from: '2018'
-      to: '_'
-      location: US-CA
 
 education:
     - university:
