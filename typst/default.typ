@@ -1,7 +1,7 @@
 // Detailed, full-width variant of the CV.
 // Developed in parallel to cv.typ; data lives in configuration_detailed.yml.
 
-#let configuration = yaml("configuration_detailed.yml")
+#let configuration = yaml("configuration_default.yml")
 #let settings = yaml("settings.yml")
 #let person = configuration.personal
 

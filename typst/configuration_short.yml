@@ -123,22 +123,7 @@ education:
       to: '2025'
       location: CH
 
-    - university:
-          name: International School Kufstein
-          link: 'https://www.isk-tirol.at/'
-      degree: 'Reifeprüfung mit ausgezeichnetem Erfolg & International Baccalaureate'
-      major: ''
-      description: Graduated with dual diplomas from bilingual school in Tirol, Austria.
-      from: '2016'
-      to: '2020'
-      location: AT
-
-    - university:
-          name: German International School of Silicon Valley
-          link: 'https://www.gissv.org/gissv-home-english'
-      degree: ''
-      major: ''
-      description: Completed a year abroad in 10th grade.
-      from: '2017'
-      to: '2018'
-      location: US-CA
+interests:
+    - 'Robot learning'
+    - 'Autonomous systems'
+    - 'Hardware involved projects'

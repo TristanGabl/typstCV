@@ -2,9 +2,9 @@
 
 Typst version of my CV using a yml file with a custom template. 
 
-[Current CV PDF](https://tristangabl.github.io/typstCV/cv.pdf)
+[Short CV PDF](https://tristangabl.github.io/typstCV/short/cv_tristan_gabl.pdf)
 
-[Detailed CV PDF](https://tristangabl.github.io/typstCV/cv_detailed.pdf)
+[Default CV PDF](https://tristangabl.github.io/typstCV/default/cv_tristan_gabl.pdf)
 
 ## Deploy
 

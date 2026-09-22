@@ -1,4 +1,4 @@
-#let configuration = yaml("configuration.yml")
+#let configuration = yaml("configuration_short.yml")
 #let settings = yaml("settings.yml")
 
 #let heading_font = "Poppins"
@@ -56,6 +56,13 @@
           -- #emph[#project.name] \
         ]
       ]
+    ]
+
+    #v(0.3em)
+    #[
+      *Languages:* #configuration.skills.languages.join("  •  ") \
+      *Technologies:* #configuration.skills.technologies.join("  •  ") \
+      *Interests:* #configuration.interests.join("  •  ")
     ]
 
   ]
@@ -119,17 +126,6 @@
       ]
     }
 
-    = Skills
-
-    #{
-      set text(size: 11pt)
-      configuration.skills.languages.join("  •  ")
-    }
-    #v(0.4em)
-    #{
-      set text(size: 11pt)
-      configuration.skills.technologies.join("  •  ")
-    }
   ]
 }
 
