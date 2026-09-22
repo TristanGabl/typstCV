@@ -20,7 +20,7 @@ education:
       link: 'https://rw.ethz.ch/'
       location: 'Zurich, Switzerland'
       degree: 'Master of Science ETH in Computational Science and Engineering'
-      gpa: '5.54/6 (current)'
+      gpa: '5.35/6 (current)'
       from: '2025'
       to: 'present'
       coursework:
@@ -29,7 +29,7 @@ education:
           - 'Probabilistic Artificial Intelligence'
           - 'Advanced Numerical Methods'
           - 'Recursive Estimation'
-          - 'Models of Motion'
+          - 'Model Predictive Control'
       points: []
 
     - institution: 'ETH Zürich'
@@ -44,32 +44,6 @@ education:
       to: '2025'
       points: []
 
-    - institution: 'International School Kufstein'
-      link: 'https://www.isk-tirol.at/'
-      location: 'Tirol, Austria'
-      degree: 'Reifeprüfung mit ausgezeichnetem Erfolg & International Baccalaureate'
-      gpa: ''
-      coursework: []
-      from: '2016'
-      to: '2020'
-      points:
-          - 'Graduated with dual diplomas from a bilingual school in Tirol, Austria.'
-
-    - institution: 'German International School of Silicon Valley'
-      link: 'https://www.gissv.org/gissv-home-english'
-      location: 'California, USA'
-      degree: 'Year abroad, 10th grade'
-      gpa: ''
-      coursework: []
-      from: '2017'
-      to: '2018'
-      points: []
-
-# Short note shown once at the top of the Work Experience section.
-experience_intro: >-
-    Additionally two years of hands-on engineering experience at one of the leading Formula Student
-    teams — see Student Organizations below.
-
 experience:
     - position: 'Research Assistant'
       organization: 'Computer Vision and Geometry Group, ETH Zürich'
@@ -78,7 +52,7 @@ experience:
       from: '2026'
       to: ''
       points:
-          - 'Collecting and pre-processing camera and LiDAR data for a computer vision research project.'
+          - 'Collecting and pre-processing camera, Aria glasses and LiDAR data for a computer vision research project about human interactions in a kitchen setting.'
 
     - position: 'Teaching Assistant'
       organization: 'ETH Zürich'
@@ -117,9 +91,10 @@ organizations:
       from: '2024'
       to: '2025'
       points:
-          - "Developed bird's eye view sensor fusion model, combining LiDAR, camera, and odometry data for landmark detection at high-speed driving (20 m/s) within latency budget."
+          - "Developed bird's eye view sensor fusion model (ResNet-style backbone with CenterNet-style detection head), combining LiDAR, camera, and odometry data for landmark detection at high-speed driving (20 m/s) within latency budget, deployed as a ROS2 inference node."
+          - "Built a custom Python dataset pipeline extracting past-season rosbags and transforming globally recorded data into the new car's local sensor frames for training, with data augmentations for model robustness."
           - 'Improved and maintained performance of baseline detection methods (LiDAR only, camera only) across incoming software and hardware changes of other modules and the car.'
-          - 'Focused on good coding practices to simplify debugging, runtime improvements, and knowledge transfer.'
+          - "Profiled and optimised the inference pipeline to stay within the 50 ms latency constraint, and maintained a clean, modular, well-documented codebase for efficient knowledge transfer."
 
 projects:
     - name: 'Cloth folding using a diffusion policy on a SO-101'
@@ -129,8 +104,8 @@ projects:
       note: ''
       points:
           - 'Established a data collection workflow for imitation learning, used to train and verify diffusion policies.'
-          - 'Refactored the codebase for use of an unsupported vision backbone in combination with a lighter flow matching model, for effective deployment without a dedicated GPU.'
-          - 'Generalised model across towel colours using data augmentation leveraging SAM 2.'
+          - "Refactored the codebase to add support for Meta's DINOv3 vision backbone and a lighter flow matching model without the text encoder, matching or outperforming the CNN-based diffusion policy with 1/5 of the parameters and enabling rollouts on a standard M1 Mac."
+          - "Generalised the policy to arbitrary towel colours by segmenting the towel in every recorded frame with SAM 2 and adding a colour-changing data transform to LeRobot, combined with a dataset of varied offsets and rotations."
 
     - name: 'CuSSS: Cuda implementation of SSS variants'
       course: 'Large-Scale AI Engineering'
@@ -157,6 +132,8 @@ projects:
       note: ''
       points:
           - 'Developed code for combining point clouds, 2D panoptic segmentation, and MLP output to produce 3D scene graphs.'
+          - "Separated object instances on the mesh using connectivity, best-view re-projection of Mask2Former instances for duplicate removal, and BFS assignment of leftover vertices; evaluated with semantic and instance mIoU on ScanNet scenes."
+          - "Compiled a relationship dataset from 3RScan/3DSSG and trained an embedding-based MLP to predict relations between objects; results shown in an interactive Plotly viewer."
 
 interests:
     - 'Robot learning'

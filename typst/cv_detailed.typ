@@ -130,23 +130,7 @@
   )
 }
 
-= Work Experience
-
-#block(below: 1em)[
-  #set text(size: 10pt, style: "italic")
-  #configuration.experience_intro
-]
-
-#for job in configuration.experience {
-  entry(
-    job.position + " at " + maybe_link(job.organization, job.link),
-    subtitle: job.location,
-    dates: daterange(job.from, job.to),
-    points: job.points,
-  )
-}
-
-= Student Organizations
+= Experience
 
 #for org in configuration.organizations {
   entry(
@@ -154,6 +138,15 @@
     subtitle: org.location,
     dates: daterange(org.from, org.to),
     points: org.points,
+  )
+}
+
+#for job in configuration.experience {
+  entry(
+    job.position + " at " + maybe_link(job.organization, job.link),
+    subtitle: job.location,
+    dates: daterange(job.from, job.to),
+    points: job.points,
   )
 }
 
